@@ -1,0 +1,11 @@
+{
+    "table_users": "user",
+    "table_accounts": "account",
+    "mysql_user": "user",
+    "mysql_pass": "password",
+    "mysql_host": "host",
+    "mysql_database_name": "database_name_placeholder",
+    "timestamp_log_file_path": "/tmp/customer_latest_insert.txt",
+    "s3_bucket_name": "customer_io_sync"
+
+}

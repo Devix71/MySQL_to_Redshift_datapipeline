@@ -50,7 +50,7 @@ def lambda_handler(event, context):
 
         # copy new rows to Redshift
         curor.execute(f'''
-            COPY placeholder_table_name 
+            COPY customer_io_user
             FROM '{path}'
             IAM_ROLE '{iam_role}'
             CSV
